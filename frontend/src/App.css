@@ -1,0 +1,27 @@
+.nav-ul li {
+  position: absolute;
+}
+
+.nav-ul li a {
+  padding: 10px;
+  text-decoration: none;
+  background-color: burlywood;
+  margin: 10px;
+}
+
+.Header-Nav {
+  background-color: bisque;
+  padding: 10px;
+  height: 53px;
+  position: relative;
+}
+.publicControl {
+  display: block;
+  float: right;
+  right: 0px;
+}
+.privateControl {
+  display: block;
+  float: left;
+  left: 0px;
+}

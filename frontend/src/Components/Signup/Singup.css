@@ -1,0 +1,38 @@
+.signup-container {
+  background-color: bisque;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+}
+
+.signup-container .signup-input-container input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.signup-container .signup-input-container {
+  margin-bottom: 20px;
+  width: 50%;
+}
+.singUpBtn {
+  display: flex;
+  justify-content: center;
+}
+.singUpBtn span {
+  background-color: coral;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  height: 29px;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.orr {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
