@@ -3,7 +3,6 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import Nav from "./Components/Nav/Nav";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./Components/Footer/Footer";
 import AddProducts from "./Pages/AddProducts";
 import Logout from "./Pages/Logout";
 import Singup from "./Components/Signup/Singup";
@@ -44,7 +43,6 @@ function App() {
           <Route path="/signup" element={<Singup />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-        {/* <Footer></Footer> */}
       </BrowserRouter>
     </div>
   );

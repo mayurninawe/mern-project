@@ -26,10 +26,10 @@ const Home = () => {
           <thead>
             <tr className="bg-dark text-white">
               <th scope="col">Sr. No</th>
-              <th scope="col">Username</th>
+              <th scope="col">Name</th>
               <th scope="col">Address</th>
-              <th scope="col">Count</th>
-              <th scope="col">Functions</th>
+              <th scope="col">Age</th>
+              <th scope="col">Operation</th>
             </tr>
           </thead>
           <tbody>

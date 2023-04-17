@@ -40,7 +40,7 @@ const Edituser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter your username here"
+              placeholder="Enter your name here"
               name="username"
               value={username}
               onChange={(e) => onInputChange(e)}
@@ -51,7 +51,7 @@ const Edituser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter your description here"
+              placeholder="Enter your address here"
               name="description"
               value={description}
               onChange={(e) => onInputChange(e)}
@@ -62,7 +62,7 @@ const Edituser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter your duration here"
+              placeholder="Enter your age here"
               name="duration"
               value={duration}
               onChange={(e) => onInputChange(e)}

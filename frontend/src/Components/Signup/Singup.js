@@ -7,6 +7,7 @@ export default function Singup() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [data, setData] = useState({});
 
   const Navigateto = useNavigate();
 
@@ -28,10 +29,15 @@ export default function Singup() {
     });
     // the result is in promise - so we have to get the data from promise using ".json"
     result = await result.json();
+    setData(JSON.stringify(result));
     // seeting the user in localstorage so if user already login in then it must not go to signup again and again
-    localStorage.setItem("user", JSON.stringify(result));
+    //
     // once user signup we are redirecting the page towards login
     Navigateto("/login");
+  };
+
+  const loginEvent = () => {
+    localStorage.setItem("user", data);
   };
 
   return (
@@ -68,10 +74,10 @@ export default function Singup() {
         />
         <br></br>
         <div className="singUpBtn" onClick={collectSignupData}>
-          <span>Singup</span>
+          <span>Singupp</span>
         </div>
         <div className="orr">OR</div>
-        <div className="singUpBtn">
+        <div className="singUpBtn" onClick={loginEvent}>
           <span>Login</span>
         </div>
       </div>

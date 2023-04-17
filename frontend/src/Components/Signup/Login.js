@@ -26,7 +26,7 @@ export default function Login() {
       localStorage.setItem("user", JSON.stringify({ result }));
       Navigateto("/");
     } else {
-      alert("use not found");
+      alert("user not found");
     }
   };
   return (
@@ -43,7 +43,7 @@ export default function Login() {
         />
         <br></br>
         <input
-          type="text"
+          type="password"
           placeholder="add password"
           name="password"
           value={password}
